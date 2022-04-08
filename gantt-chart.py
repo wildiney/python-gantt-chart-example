@@ -4,6 +4,8 @@
 import datetime
 import gantt
 
+chart_name = input("Insert the chart name:")
+
 gantt.define_font_attributes(
     fill='black', stroke='black', stroke_width=0, font_family="Verdana")
 gantt.define_not_worked_days([5, 6])
@@ -39,4 +41,4 @@ pg = gantt.Project(name="2018")
 pg.add_task(mc)
 pg.add_task(dm)
 
-pg.make_svg_for_tasks(filename="chart.svg")
+pg.make_svg_for_tasks(filename="charts/"+chart_name+".svg")

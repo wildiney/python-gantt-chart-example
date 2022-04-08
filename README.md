@@ -7,3 +7,7 @@ This is a snippet of code showing how to make a python gantt chart
 ## Screenshots
 
 ![screenshots](https://github.com/wildiney/python-gantt-chart-example/blob/master/screenshots/screenshot-01.svg)
+
+## CHANGELOG
+
+2020-04 - Input for filename added
